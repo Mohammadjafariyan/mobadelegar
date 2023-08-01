@@ -1,0 +1,20 @@
+/*
+Theme Name: GosTaran Themes
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+*/
+@font-face{
+	font-family: 'iranyekan';
+	src: url('fonts/iranyekanwebregular.eot');
+	src: url('fonts/iranyekanwebregular.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+	url('fonts/iranyekanwebregular.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+	url('fonts/iranyekanwebregular.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('fonts/iranyekanwebregular.ttf') format('truetype');
+}
+@font-face {
+font-family: "aviny";
+src: url('fonts/aviny.ttf') format('truetype');
+}
+@font-face {
+	  font-family: "lalezar";
+	  src: url("fonts/LalezarRegular.ttf");
+}

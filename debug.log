@@ -1,0 +1,244 @@
+[03-Aug-2023 13:24:07 UTC] PHP Warning:  Undefined array key "cryptoland_lang_item" in C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php on line 334
+[03-Aug-2023 13:24:07 UTC] PHP Stack trace:
+[03-Aug-2023 13:24:07 UTC] PHP   1. {main}() C:\xampp\htdocs\index.php:0
+[03-Aug-2023 13:24:07 UTC] PHP   2. require() C:\xampp\htdocs\index.php:17
+[03-Aug-2023 13:24:07 UTC] PHP   3. require_once() C:\xampp\htdocs\wp-blog-header.php:19
+[03-Aug-2023 13:24:07 UTC] PHP   4. include() C:\xampp\htdocs\wp-includes\template-loader.php:106
+[03-Aug-2023 13:24:07 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\xampp\htdocs\wp-content\themes\cryptoland-child\index.php:4
+[03-Aug-2023 13:24:07 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\xampp\htdocs\wp-includes\general-template.php:48
+[03-Aug-2023 13:24:07 UTC] PHP   7. load_template($_template_file = 'C:\\xampp\\htdocs/wp-content/themes/cryptoland/header.php', $load_once = TRUE, $args = []) C:\xampp\htdocs\wp-includes\template.php:718
+[03-Aug-2023 13:24:07 UTC] PHP   8. require_once() C:\xampp\htdocs\wp-includes\template.php:783
+[03-Aug-2023 13:24:07 UTC] PHP   9. do_action($hook_name = 'cryptoland_header_action') C:\xampp\htdocs\wp-content\themes\cryptoland\header.php:21
+[03-Aug-2023 13:24:07 UTC] PHP  10. WP_Hook->do_action($args = [0 => '']) C:\xampp\htdocs\wp-includes\plugin.php:517
+[03-Aug-2023 13:24:07 UTC] PHP  11. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\xampp\htdocs\wp-includes\class-wp-hook.php:332
+[03-Aug-2023 13:24:07 UTC] PHP  12. cryptoland_header('') C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:07 UTC] PHP Warning:  Undefined array key "cryptoland_lang_item" in C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php on line 334
+[03-Aug-2023 13:24:07 UTC] PHP Stack trace:
+[03-Aug-2023 13:24:07 UTC] PHP   1. {main}() C:\xampp\htdocs\index.php:0
+[03-Aug-2023 13:24:07 UTC] PHP   2. require() C:\xampp\htdocs\index.php:17
+[03-Aug-2023 13:24:07 UTC] PHP   3. require_once() C:\xampp\htdocs\wp-blog-header.php:19
+[03-Aug-2023 13:24:07 UTC] PHP   4. include() C:\xampp\htdocs\wp-includes\template-loader.php:106
+[03-Aug-2023 13:24:07 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\xampp\htdocs\wp-content\themes\cryptoland-child\index.php:4
+[03-Aug-2023 13:24:07 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\xampp\htdocs\wp-includes\general-template.php:48
+[03-Aug-2023 13:24:07 UTC] PHP   7. load_template($_template_file = 'C:\\xampp\\htdocs/wp-content/themes/cryptoland/header.php', $load_once = TRUE, $args = []) C:\xampp\htdocs\wp-includes\template.php:718
+[03-Aug-2023 13:24:07 UTC] PHP   8. require_once() C:\xampp\htdocs\wp-includes\template.php:783
+[03-Aug-2023 13:24:07 UTC] PHP   9. do_action($hook_name = 'cryptoland_header_action') C:\xampp\htdocs\wp-content\themes\cryptoland\header.php:21
+[03-Aug-2023 13:24:07 UTC] PHP  10. WP_Hook->do_action($args = [0 => '']) C:\xampp\htdocs\wp-includes\plugin.php:517
+[03-Aug-2023 13:24:07 UTC] PHP  11. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\xampp\htdocs\wp-includes\class-wp-hook.php:332
+[03-Aug-2023 13:24:07 UTC] PHP  12. cryptoland_header('') C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:07 UTC] PHP Warning:  Undefined array key "cryptoland_lang_item" in C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php on line 409
+[03-Aug-2023 13:24:07 UTC] PHP Stack trace:
+[03-Aug-2023 13:24:07 UTC] PHP   1. {main}() C:\xampp\htdocs\index.php:0
+[03-Aug-2023 13:24:07 UTC] PHP   2. require() C:\xampp\htdocs\index.php:17
+[03-Aug-2023 13:24:07 UTC] PHP   3. require_once() C:\xampp\htdocs\wp-blog-header.php:19
+[03-Aug-2023 13:24:07 UTC] PHP   4. include() C:\xampp\htdocs\wp-includes\template-loader.php:106
+[03-Aug-2023 13:24:07 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\xampp\htdocs\wp-content\themes\cryptoland-child\index.php:4
+[03-Aug-2023 13:24:07 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\xampp\htdocs\wp-includes\general-template.php:48
+[03-Aug-2023 13:24:07 UTC] PHP   7. load_template($_template_file = 'C:\\xampp\\htdocs/wp-content/themes/cryptoland/header.php', $load_once = TRUE, $args = []) C:\xampp\htdocs\wp-includes\template.php:718
+[03-Aug-2023 13:24:07 UTC] PHP   8. require_once() C:\xampp\htdocs\wp-includes\template.php:783
+[03-Aug-2023 13:24:07 UTC] PHP   9. do_action($hook_name = 'cryptoland_header_action') C:\xampp\htdocs\wp-content\themes\cryptoland\header.php:21
+[03-Aug-2023 13:24:07 UTC] PHP  10. WP_Hook->do_action($args = [0 => '']) C:\xampp\htdocs\wp-includes\plugin.php:517
+[03-Aug-2023 13:24:07 UTC] PHP  11. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\xampp\htdocs\wp-includes\class-wp-hook.php:332
+[03-Aug-2023 13:24:07 UTC] PHP  12. cryptoland_header('') C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:07 UTC] PHP Warning:  Undefined array key "cryptoland_lang_item" in C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php on line 409
+[03-Aug-2023 13:24:07 UTC] PHP Stack trace:
+[03-Aug-2023 13:24:07 UTC] PHP   1. {main}() C:\xampp\htdocs\index.php:0
+[03-Aug-2023 13:24:07 UTC] PHP   2. require() C:\xampp\htdocs\index.php:17
+[03-Aug-2023 13:24:07 UTC] PHP   3. require_once() C:\xampp\htdocs\wp-blog-header.php:19
+[03-Aug-2023 13:24:07 UTC] PHP   4. include() C:\xampp\htdocs\wp-includes\template-loader.php:106
+[03-Aug-2023 13:24:07 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\xampp\htdocs\wp-content\themes\cryptoland-child\index.php:4
+[03-Aug-2023 13:24:07 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\xampp\htdocs\wp-includes\general-template.php:48
+[03-Aug-2023 13:24:07 UTC] PHP   7. load_template($_template_file = 'C:\\xampp\\htdocs/wp-content/themes/cryptoland/header.php', $load_once = TRUE, $args = []) C:\xampp\htdocs\wp-includes\template.php:718
+[03-Aug-2023 13:24:07 UTC] PHP   8. require_once() C:\xampp\htdocs\wp-includes\template.php:783
+[03-Aug-2023 13:24:07 UTC] PHP   9. do_action($hook_name = 'cryptoland_header_action') C:\xampp\htdocs\wp-content\themes\cryptoland\header.php:21
+[03-Aug-2023 13:24:07 UTC] PHP  10. WP_Hook->do_action($args = [0 => '']) C:\xampp\htdocs\wp-includes\plugin.php:517
+[03-Aug-2023 13:24:07 UTC] PHP  11. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\xampp\htdocs\wp-includes\class-wp-hook.php:332
+[03-Aug-2023 13:24:07 UTC] PHP  12. cryptoland_header('') C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:07 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\wp-includes\formatting.php on line 4415
+[03-Aug-2023 13:24:07 UTC] PHP Stack trace:
+[03-Aug-2023 13:24:07 UTC] PHP   1. {main}() C:\xampp\htdocs\index.php:0
+[03-Aug-2023 13:24:07 UTC] PHP   2. require() C:\xampp\htdocs\index.php:17
+[03-Aug-2023 13:24:07 UTC] PHP   3. require_once() C:\xampp\htdocs\wp-blog-header.php:19
+[03-Aug-2023 13:24:07 UTC] PHP   4. include() C:\xampp\htdocs\wp-includes\template-loader.php:106
+[03-Aug-2023 13:24:07 UTC] PHP   5. cryptoland_post_format() C:\xampp\htdocs\wp-content\themes\cryptoland-child\index.php:114
+[03-Aug-2023 13:24:07 UTC] PHP   6. do_action($hook_name = 'cryptoland_formats_content_action') C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php:675
+[03-Aug-2023 13:24:07 UTC] PHP   7. WP_Hook->do_action($args = [0 => '']) C:\xampp\htdocs\wp-includes\plugin.php:517
+[03-Aug-2023 13:24:07 UTC] PHP   8. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\xampp\htdocs\wp-includes\class-wp-hook.php:332
+[03-Aug-2023 13:24:07 UTC] PHP   9. cryptoland_formats_content('') C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:07 UTC] PHP  10. esc_url($url = NULL, $protocols = *uninitialized*, $_context = *uninitialized*) C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php:717
+[03-Aug-2023 13:24:07 UTC] PHP  11. ltrim($string = NULL) C:\xampp\htdocs\wp-includes\formatting.php:4415
+[03-Aug-2023 13:24:07 UTC] PHP Deprecated:  preg_split(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\xampp\htdocs\wp-includes\formatting.php on line 3465
+[03-Aug-2023 13:24:07 UTC] PHP Stack trace:
+[03-Aug-2023 13:24:07 UTC] PHP   1. {main}() C:\xampp\htdocs\index.php:0
+[03-Aug-2023 13:24:07 UTC] PHP   2. require() C:\xampp\htdocs\index.php:17
+[03-Aug-2023 13:24:07 UTC] PHP   3. require_once() C:\xampp\htdocs\wp-blog-header.php:19
+[03-Aug-2023 13:24:07 UTC] PHP   4. include() C:\xampp\htdocs\wp-includes\template-loader.php:106
+[03-Aug-2023 13:24:07 UTC] PHP   5. cryptoland_post_format() C:\xampp\htdocs\wp-content\themes\cryptoland-child\index.php:114
+[03-Aug-2023 13:24:07 UTC] PHP   6. do_action($hook_name = 'cryptoland_formats_content_action') C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php:675
+[03-Aug-2023 13:24:07 UTC] PHP   7. WP_Hook->do_action($args = [0 => '']) C:\xampp\htdocs\wp-includes\plugin.php:517
+[03-Aug-2023 13:24:07 UTC] PHP   8. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\xampp\htdocs\wp-includes\class-wp-hook.php:332
+[03-Aug-2023 13:24:07 UTC] PHP   9. cryptoland_formats_content('') C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:07 UTC] PHP  10. the_excerpt() C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php:724
+[03-Aug-2023 13:24:07 UTC] PHP  11. get_the_excerpt($post = *uninitialized*) C:\xampp\htdocs\wp-includes\post-template.php:396
+[03-Aug-2023 13:24:07 UTC] PHP  12. apply_filters($hook_name = 'get_the_excerpt', $value = '', ...$args = variadic(class WP_Post { public $ID = 1239; public $post_author = '2'; public $post_date = '2023-07-29 16:20:56'; public $post_date_gmt = '2023-07-29 12:50:56'; public $post_content = ''; public $post_title = 'اخبار'; public $post_excerpt = ''; public $post_status = 'publish'; public $comment_status = 'open'; public $ping_status = 'open'; public $post_password = ''; public $post_name = '%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1'; public $to_ping = ''; public $pinged = ''; public $post_modified = '2023-07-29 16:20:56'; public $post_modified_gmt = '2023-07-29 12:50:56'; public $post_content_filtered = ''; public $post_parent = 0; public $guid = 'https://mobadelegar.com/?p=1239'; public $menu_order = 0; public $post_type = 'post'; public $post_mime_type = ''; public $comment_count = '0'; public $filter = 'raw' })) C:\xampp\htdocs\wp-includes\post-template.php:431
+[03-Aug-2023 13:24:07 UTC] PHP  13. WP_Hook->apply_filters($value = '', $args = [0 => '', 1 => class WP_Post { public $ID = 1239; public $post_author = '2'; public $post_date = '2023-07-29 16:20:56'; public $post_date_gmt = '2023-07-29 12:50:56'; public $post_content = ''; public $post_title = 'اخبار'; public $post_excerpt = ''; public $post_status = 'publish'; public $comment_status = 'open'; public $ping_status = 'open'; public $post_password = ''; public $post_name = '%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1'; public $to_ping = ''; public $pinged = ''; public $post_modified = '2023-07-29 16:20:56'; public $post_modified_gmt = '2023-07-29 12:50:56'; public $post_content_filtered = ''; public $post_parent = 0; public $guid = 'https://mobadelegar.com/?p=1239'; public $menu_order = 0; public $post_type = 'post'; public $post_mime_type = ''; public $comment_count = '0'; public $filter = 'raw' }]) C:\xampp\htdocs\wp-includes\plugin.php:205
+[03-Aug-2023 13:24:07 UTC] PHP  14. wp_trim_excerpt($text = '', $post = class WP_Post { public $ID = 1239; public $post_author = '2'; public $post_date = '2023-07-29 16:20:56'; public $post_date_gmt = '2023-07-29 12:50:56'; public $post_content = ''; public $post_title = 'اخبار'; public $post_excerpt = ''; public $post_status = 'publish'; public $comment_status = 'open'; public $ping_status = 'open'; public $post_password = ''; public $post_name = '%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1'; public $to_ping = ''; public $pinged = ''; public $post_modified = '2023-07-29 16:20:56'; public $post_modified_gmt = '2023-07-29 12:50:56'; public $post_content_filtered = ''; public $post_parent = 0; public $guid = 'https://mobadelegar.com/?p=1239'; public $menu_order = 0; public $post_type = 'post'; public $post_mime_type = ''; public $comment_count = '0'; public $filter = 'raw' }) C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:07 UTC] PHP  15. apply_filters($hook_name = 'the_content', $value = '') C:\xampp\htdocs\wp-includes\formatting.php:3928
+[03-Aug-2023 13:24:07 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\xampp\htdocs\wp-includes\plugin.php:205
+[03-Aug-2023 13:24:07 UTC] PHP  17. convert_smilies($text = NULL) C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:07 UTC] PHP  18. preg_split($pattern = '/(<.*>)/U', $subject = NULL, $limit = -1, $flags = 2) C:\xampp\htdocs\wp-includes\formatting.php:3465
+[03-Aug-2023 13:24:07 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\wp-includes\formatting.php on line 4415
+[03-Aug-2023 13:24:07 UTC] PHP Stack trace:
+[03-Aug-2023 13:24:07 UTC] PHP   1. {main}() C:\xampp\htdocs\index.php:0
+[03-Aug-2023 13:24:07 UTC] PHP   2. require() C:\xampp\htdocs\index.php:17
+[03-Aug-2023 13:24:07 UTC] PHP   3. require_once() C:\xampp\htdocs\wp-blog-header.php:19
+[03-Aug-2023 13:24:07 UTC] PHP   4. include() C:\xampp\htdocs\wp-includes\template-loader.php:106
+[03-Aug-2023 13:24:07 UTC] PHP   5. cryptoland_post_format() C:\xampp\htdocs\wp-content\themes\cryptoland-child\index.php:114
+[03-Aug-2023 13:24:07 UTC] PHP   6. do_action($hook_name = 'cryptoland_formats_content_action') C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php:675
+[03-Aug-2023 13:24:07 UTC] PHP   7. WP_Hook->do_action($args = [0 => '']) C:\xampp\htdocs\wp-includes\plugin.php:517
+[03-Aug-2023 13:24:07 UTC] PHP   8. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\xampp\htdocs\wp-includes\class-wp-hook.php:332
+[03-Aug-2023 13:24:07 UTC] PHP   9. cryptoland_formats_content('') C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:07 UTC] PHP  10. esc_url($url = NULL, $protocols = *uninitialized*, $_context = *uninitialized*) C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php:717
+[03-Aug-2023 13:24:07 UTC] PHP  11. ltrim($string = NULL) C:\xampp\htdocs\wp-includes\formatting.php:4415
+[03-Aug-2023 13:24:07 UTC] PHP Deprecated:  preg_split(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\xampp\htdocs\wp-includes\formatting.php on line 3465
+[03-Aug-2023 13:24:07 UTC] PHP Stack trace:
+[03-Aug-2023 13:24:07 UTC] PHP   1. {main}() C:\xampp\htdocs\index.php:0
+[03-Aug-2023 13:24:07 UTC] PHP   2. require() C:\xampp\htdocs\index.php:17
+[03-Aug-2023 13:24:07 UTC] PHP   3. require_once() C:\xampp\htdocs\wp-blog-header.php:19
+[03-Aug-2023 13:24:07 UTC] PHP   4. include() C:\xampp\htdocs\wp-includes\template-loader.php:106
+[03-Aug-2023 13:24:07 UTC] PHP   5. cryptoland_post_format() C:\xampp\htdocs\wp-content\themes\cryptoland-child\index.php:114
+[03-Aug-2023 13:24:07 UTC] PHP   6. do_action($hook_name = 'cryptoland_formats_content_action') C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php:675
+[03-Aug-2023 13:24:07 UTC] PHP   7. WP_Hook->do_action($args = [0 => '']) C:\xampp\htdocs\wp-includes\plugin.php:517
+[03-Aug-2023 13:24:07 UTC] PHP   8. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\xampp\htdocs\wp-includes\class-wp-hook.php:332
+[03-Aug-2023 13:24:07 UTC] PHP   9. cryptoland_formats_content('') C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:07 UTC] PHP  10. the_excerpt() C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php:724
+[03-Aug-2023 13:24:07 UTC] PHP  11. get_the_excerpt($post = *uninitialized*) C:\xampp\htdocs\wp-includes\post-template.php:396
+[03-Aug-2023 13:24:07 UTC] PHP  12. apply_filters($hook_name = 'get_the_excerpt', $value = '', ...$args = variadic(class WP_Post { public $ID = 1237; public $post_author = '2'; public $post_date = '2023-07-29 15:08:01'; public $post_date_gmt = '2023-07-29 11:38:01'; public $post_content = ''; public $post_title = 'برای مثال'; public $post_excerpt = ''; public $post_status = 'publish'; public $comment_status = 'open'; public $ping_status = 'open'; public $post_password = ''; public $post_name = '%d8%a8%d8%b1%d8%a7%db%8c-%d9%85%d8%ab%d8%a7%d9%84'; public $to_ping = ''; public $pinged = ''; public $post_modified = '2023-07-29 15:08:01'; public $post_modified_gmt = '2023-07-29 11:38:01'; public $post_content_filtered = ''; public $post_parent = 0; public $guid = 'https://mobadelegar.com/?p=1237'; public $menu_order = 0; public $post_type = 'post'; public $post_mime_type = ''; public $comment_count = '0'; public $filter = 'raw' })) C:\xampp\htdocs\wp-includes\post-template.php:431
+[03-Aug-2023 13:24:07 UTC] PHP  13. WP_Hook->apply_filters($value = '', $args = [0 => '', 1 => class WP_Post { public $ID = 1237; public $post_author = '2'; public $post_date = '2023-07-29 15:08:01'; public $post_date_gmt = '2023-07-29 11:38:01'; public $post_content = ''; public $post_title = 'برای مثال'; public $post_excerpt = ''; public $post_status = 'publish'; public $comment_status = 'open'; public $ping_status = 'open'; public $post_password = ''; public $post_name = '%d8%a8%d8%b1%d8%a7%db%8c-%d9%85%d8%ab%d8%a7%d9%84'; public $to_ping = ''; public $pinged = ''; public $post_modified = '2023-07-29 15:08:01'; public $post_modified_gmt = '2023-07-29 11:38:01'; public $post_content_filtered = ''; public $post_parent = 0; public $guid = 'https://mobadelegar.com/?p=1237'; public $menu_order = 0; public $post_type = 'post'; public $post_mime_type = ''; public $comment_count = '0'; public $filter = 'raw' }]) C:\xampp\htdocs\wp-includes\plugin.php:205
+[03-Aug-2023 13:24:07 UTC] PHP  14. wp_trim_excerpt($text = '', $post = class WP_Post { public $ID = 1237; public $post_author = '2'; public $post_date = '2023-07-29 15:08:01'; public $post_date_gmt = '2023-07-29 11:38:01'; public $post_content = ''; public $post_title = 'برای مثال'; public $post_excerpt = ''; public $post_status = 'publish'; public $comment_status = 'open'; public $ping_status = 'open'; public $post_password = ''; public $post_name = '%d8%a8%d8%b1%d8%a7%db%8c-%d9%85%d8%ab%d8%a7%d9%84'; public $to_ping = ''; public $pinged = ''; public $post_modified = '2023-07-29 15:08:01'; public $post_modified_gmt = '2023-07-29 11:38:01'; public $post_content_filtered = ''; public $post_parent = 0; public $guid = 'https://mobadelegar.com/?p=1237'; public $menu_order = 0; public $post_type = 'post'; public $post_mime_type = ''; public $comment_count = '0'; public $filter = 'raw' }) C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:07 UTC] PHP  15. apply_filters($hook_name = 'the_content', $value = '') C:\xampp\htdocs\wp-includes\formatting.php:3928
+[03-Aug-2023 13:24:07 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\xampp\htdocs\wp-includes\plugin.php:205
+[03-Aug-2023 13:24:07 UTC] PHP  17. convert_smilies($text = NULL) C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:07 UTC] PHP  18. preg_split($pattern = '/(<.*>)/U', $subject = NULL, $limit = -1, $flags = 2) C:\xampp\htdocs\wp-includes\formatting.php:3465
+[03-Aug-2023 13:24:38 UTC] PHP Warning:  Undefined array key "cryptoland_lang_item" in C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php on line 334
+[03-Aug-2023 13:24:38 UTC] PHP Stack trace:
+[03-Aug-2023 13:24:38 UTC] PHP   1. {main}() C:\xampp\htdocs\index.php:0
+[03-Aug-2023 13:24:38 UTC] PHP   2. require() C:\xampp\htdocs\index.php:17
+[03-Aug-2023 13:24:38 UTC] PHP   3. require_once() C:\xampp\htdocs\wp-blog-header.php:19
+[03-Aug-2023 13:24:38 UTC] PHP   4. include() C:\xampp\htdocs\wp-includes\template-loader.php:106
+[03-Aug-2023 13:24:38 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\xampp\htdocs\wp-content\themes\cryptoland-child\index.php:4
+[03-Aug-2023 13:24:38 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\xampp\htdocs\wp-includes\general-template.php:48
+[03-Aug-2023 13:24:38 UTC] PHP   7. load_template($_template_file = 'C:\\xampp\\htdocs/wp-content/themes/cryptoland/header.php', $load_once = TRUE, $args = []) C:\xampp\htdocs\wp-includes\template.php:718
+[03-Aug-2023 13:24:38 UTC] PHP   8. require_once() C:\xampp\htdocs\wp-includes\template.php:783
+[03-Aug-2023 13:24:38 UTC] PHP   9. do_action($hook_name = 'cryptoland_header_action') C:\xampp\htdocs\wp-content\themes\cryptoland\header.php:21
+[03-Aug-2023 13:24:38 UTC] PHP  10. WP_Hook->do_action($args = [0 => '']) C:\xampp\htdocs\wp-includes\plugin.php:517
+[03-Aug-2023 13:24:38 UTC] PHP  11. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\xampp\htdocs\wp-includes\class-wp-hook.php:332
+[03-Aug-2023 13:24:38 UTC] PHP  12. cryptoland_header('') C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:38 UTC] PHP Warning:  Undefined array key "cryptoland_lang_item" in C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php on line 334
+[03-Aug-2023 13:24:38 UTC] PHP Stack trace:
+[03-Aug-2023 13:24:38 UTC] PHP   1. {main}() C:\xampp\htdocs\index.php:0
+[03-Aug-2023 13:24:38 UTC] PHP   2. require() C:\xampp\htdocs\index.php:17
+[03-Aug-2023 13:24:38 UTC] PHP   3. require_once() C:\xampp\htdocs\wp-blog-header.php:19
+[03-Aug-2023 13:24:38 UTC] PHP   4. include() C:\xampp\htdocs\wp-includes\template-loader.php:106
+[03-Aug-2023 13:24:38 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\xampp\htdocs\wp-content\themes\cryptoland-child\index.php:4
+[03-Aug-2023 13:24:38 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\xampp\htdocs\wp-includes\general-template.php:48
+[03-Aug-2023 13:24:38 UTC] PHP   7. load_template($_template_file = 'C:\\xampp\\htdocs/wp-content/themes/cryptoland/header.php', $load_once = TRUE, $args = []) C:\xampp\htdocs\wp-includes\template.php:718
+[03-Aug-2023 13:24:38 UTC] PHP   8. require_once() C:\xampp\htdocs\wp-includes\template.php:783
+[03-Aug-2023 13:24:38 UTC] PHP   9. do_action($hook_name = 'cryptoland_header_action') C:\xampp\htdocs\wp-content\themes\cryptoland\header.php:21
+[03-Aug-2023 13:24:38 UTC] PHP  10. WP_Hook->do_action($args = [0 => '']) C:\xampp\htdocs\wp-includes\plugin.php:517
+[03-Aug-2023 13:24:38 UTC] PHP  11. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\xampp\htdocs\wp-includes\class-wp-hook.php:332
+[03-Aug-2023 13:24:38 UTC] PHP  12. cryptoland_header('') C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:38 UTC] PHP Warning:  Undefined array key "cryptoland_lang_item" in C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php on line 409
+[03-Aug-2023 13:24:38 UTC] PHP Stack trace:
+[03-Aug-2023 13:24:38 UTC] PHP   1. {main}() C:\xampp\htdocs\index.php:0
+[03-Aug-2023 13:24:38 UTC] PHP   2. require() C:\xampp\htdocs\index.php:17
+[03-Aug-2023 13:24:38 UTC] PHP   3. require_once() C:\xampp\htdocs\wp-blog-header.php:19
+[03-Aug-2023 13:24:38 UTC] PHP   4. include() C:\xampp\htdocs\wp-includes\template-loader.php:106
+[03-Aug-2023 13:24:38 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\xampp\htdocs\wp-content\themes\cryptoland-child\index.php:4
+[03-Aug-2023 13:24:38 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\xampp\htdocs\wp-includes\general-template.php:48
+[03-Aug-2023 13:24:38 UTC] PHP   7. load_template($_template_file = 'C:\\xampp\\htdocs/wp-content/themes/cryptoland/header.php', $load_once = TRUE, $args = []) C:\xampp\htdocs\wp-includes\template.php:718
+[03-Aug-2023 13:24:38 UTC] PHP   8. require_once() C:\xampp\htdocs\wp-includes\template.php:783
+[03-Aug-2023 13:24:38 UTC] PHP   9. do_action($hook_name = 'cryptoland_header_action') C:\xampp\htdocs\wp-content\themes\cryptoland\header.php:21
+[03-Aug-2023 13:24:38 UTC] PHP  10. WP_Hook->do_action($args = [0 => '']) C:\xampp\htdocs\wp-includes\plugin.php:517
+[03-Aug-2023 13:24:38 UTC] PHP  11. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\xampp\htdocs\wp-includes\class-wp-hook.php:332
+[03-Aug-2023 13:24:38 UTC] PHP  12. cryptoland_header('') C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:38 UTC] PHP Warning:  Undefined array key "cryptoland_lang_item" in C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php on line 409
+[03-Aug-2023 13:24:38 UTC] PHP Stack trace:
+[03-Aug-2023 13:24:38 UTC] PHP   1. {main}() C:\xampp\htdocs\index.php:0
+[03-Aug-2023 13:24:38 UTC] PHP   2. require() C:\xampp\htdocs\index.php:17
+[03-Aug-2023 13:24:38 UTC] PHP   3. require_once() C:\xampp\htdocs\wp-blog-header.php:19
+[03-Aug-2023 13:24:38 UTC] PHP   4. include() C:\xampp\htdocs\wp-includes\template-loader.php:106
+[03-Aug-2023 13:24:38 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) C:\xampp\htdocs\wp-content\themes\cryptoland-child\index.php:4
+[03-Aug-2023 13:24:38 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\xampp\htdocs\wp-includes\general-template.php:48
+[03-Aug-2023 13:24:38 UTC] PHP   7. load_template($_template_file = 'C:\\xampp\\htdocs/wp-content/themes/cryptoland/header.php', $load_once = TRUE, $args = []) C:\xampp\htdocs\wp-includes\template.php:718
+[03-Aug-2023 13:24:38 UTC] PHP   8. require_once() C:\xampp\htdocs\wp-includes\template.php:783
+[03-Aug-2023 13:24:38 UTC] PHP   9. do_action($hook_name = 'cryptoland_header_action') C:\xampp\htdocs\wp-content\themes\cryptoland\header.php:21
+[03-Aug-2023 13:24:38 UTC] PHP  10. WP_Hook->do_action($args = [0 => '']) C:\xampp\htdocs\wp-includes\plugin.php:517
+[03-Aug-2023 13:24:38 UTC] PHP  11. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\xampp\htdocs\wp-includes\class-wp-hook.php:332
+[03-Aug-2023 13:24:38 UTC] PHP  12. cryptoland_header('') C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:38 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\wp-includes\formatting.php on line 4415
+[03-Aug-2023 13:24:38 UTC] PHP Stack trace:
+[03-Aug-2023 13:24:38 UTC] PHP   1. {main}() C:\xampp\htdocs\index.php:0
+[03-Aug-2023 13:24:38 UTC] PHP   2. require() C:\xampp\htdocs\index.php:17
+[03-Aug-2023 13:24:38 UTC] PHP   3. require_once() C:\xampp\htdocs\wp-blog-header.php:19
+[03-Aug-2023 13:24:38 UTC] PHP   4. include() C:\xampp\htdocs\wp-includes\template-loader.php:106
+[03-Aug-2023 13:24:38 UTC] PHP   5. cryptoland_post_format() C:\xampp\htdocs\wp-content\themes\cryptoland-child\index.php:114
+[03-Aug-2023 13:24:38 UTC] PHP   6. do_action($hook_name = 'cryptoland_formats_content_action') C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php:675
+[03-Aug-2023 13:24:38 UTC] PHP   7. WP_Hook->do_action($args = [0 => '']) C:\xampp\htdocs\wp-includes\plugin.php:517
+[03-Aug-2023 13:24:38 UTC] PHP   8. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\xampp\htdocs\wp-includes\class-wp-hook.php:332
+[03-Aug-2023 13:24:38 UTC] PHP   9. cryptoland_formats_content('') C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:38 UTC] PHP  10. esc_url($url = NULL, $protocols = *uninitialized*, $_context = *uninitialized*) C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php:717
+[03-Aug-2023 13:24:38 UTC] PHP  11. ltrim($string = NULL) C:\xampp\htdocs\wp-includes\formatting.php:4415
+[03-Aug-2023 13:24:38 UTC] PHP Deprecated:  preg_split(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\xampp\htdocs\wp-includes\formatting.php on line 3465
+[03-Aug-2023 13:24:38 UTC] PHP Stack trace:
+[03-Aug-2023 13:24:38 UTC] PHP   1. {main}() C:\xampp\htdocs\index.php:0
+[03-Aug-2023 13:24:38 UTC] PHP   2. require() C:\xampp\htdocs\index.php:17
+[03-Aug-2023 13:24:38 UTC] PHP   3. require_once() C:\xampp\htdocs\wp-blog-header.php:19
+[03-Aug-2023 13:24:38 UTC] PHP   4. include() C:\xampp\htdocs\wp-includes\template-loader.php:106
+[03-Aug-2023 13:24:38 UTC] PHP   5. cryptoland_post_format() C:\xampp\htdocs\wp-content\themes\cryptoland-child\index.php:114
+[03-Aug-2023 13:24:38 UTC] PHP   6. do_action($hook_name = 'cryptoland_formats_content_action') C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php:675
+[03-Aug-2023 13:24:38 UTC] PHP   7. WP_Hook->do_action($args = [0 => '']) C:\xampp\htdocs\wp-includes\plugin.php:517
+[03-Aug-2023 13:24:38 UTC] PHP   8. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\xampp\htdocs\wp-includes\class-wp-hook.php:332
+[03-Aug-2023 13:24:38 UTC] PHP   9. cryptoland_formats_content('') C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:38 UTC] PHP  10. the_excerpt() C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php:724
+[03-Aug-2023 13:24:38 UTC] PHP  11. get_the_excerpt($post = *uninitialized*) C:\xampp\htdocs\wp-includes\post-template.php:396
+[03-Aug-2023 13:24:38 UTC] PHP  12. apply_filters($hook_name = 'get_the_excerpt', $value = '', ...$args = variadic(class WP_Post { public $ID = 1239; public $post_author = '2'; public $post_date = '2023-07-29 16:20:56'; public $post_date_gmt = '2023-07-29 12:50:56'; public $post_content = ''; public $post_title = 'اخبار'; public $post_excerpt = ''; public $post_status = 'publish'; public $comment_status = 'open'; public $ping_status = 'open'; public $post_password = ''; public $post_name = '%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1'; public $to_ping = ''; public $pinged = ''; public $post_modified = '2023-07-29 16:20:56'; public $post_modified_gmt = '2023-07-29 12:50:56'; public $post_content_filtered = ''; public $post_parent = 0; public $guid = 'https://mobadelegar.com/?p=1239'; public $menu_order = 0; public $post_type = 'post'; public $post_mime_type = ''; public $comment_count = '0'; public $filter = 'raw' })) C:\xampp\htdocs\wp-includes\post-template.php:431
+[03-Aug-2023 13:24:38 UTC] PHP  13. WP_Hook->apply_filters($value = '', $args = [0 => '', 1 => class WP_Post { public $ID = 1239; public $post_author = '2'; public $post_date = '2023-07-29 16:20:56'; public $post_date_gmt = '2023-07-29 12:50:56'; public $post_content = ''; public $post_title = 'اخبار'; public $post_excerpt = ''; public $post_status = 'publish'; public $comment_status = 'open'; public $ping_status = 'open'; public $post_password = ''; public $post_name = '%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1'; public $to_ping = ''; public $pinged = ''; public $post_modified = '2023-07-29 16:20:56'; public $post_modified_gmt = '2023-07-29 12:50:56'; public $post_content_filtered = ''; public $post_parent = 0; public $guid = 'https://mobadelegar.com/?p=1239'; public $menu_order = 0; public $post_type = 'post'; public $post_mime_type = ''; public $comment_count = '0'; public $filter = 'raw' }]) C:\xampp\htdocs\wp-includes\plugin.php:205
+[03-Aug-2023 13:24:38 UTC] PHP  14. wp_trim_excerpt($text = '', $post = class WP_Post { public $ID = 1239; public $post_author = '2'; public $post_date = '2023-07-29 16:20:56'; public $post_date_gmt = '2023-07-29 12:50:56'; public $post_content = ''; public $post_title = 'اخبار'; public $post_excerpt = ''; public $post_status = 'publish'; public $comment_status = 'open'; public $ping_status = 'open'; public $post_password = ''; public $post_name = '%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1'; public $to_ping = ''; public $pinged = ''; public $post_modified = '2023-07-29 16:20:56'; public $post_modified_gmt = '2023-07-29 12:50:56'; public $post_content_filtered = ''; public $post_parent = 0; public $guid = 'https://mobadelegar.com/?p=1239'; public $menu_order = 0; public $post_type = 'post'; public $post_mime_type = ''; public $comment_count = '0'; public $filter = 'raw' }) C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:38 UTC] PHP  15. apply_filters($hook_name = 'the_content', $value = '') C:\xampp\htdocs\wp-includes\formatting.php:3928
+[03-Aug-2023 13:24:38 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\xampp\htdocs\wp-includes\plugin.php:205
+[03-Aug-2023 13:24:38 UTC] PHP  17. convert_smilies($text = NULL) C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:38 UTC] PHP  18. preg_split($pattern = '/(<.*>)/U', $subject = NULL, $limit = -1, $flags = 2) C:\xampp\htdocs\wp-includes\formatting.php:3465
+[03-Aug-2023 13:24:38 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\wp-includes\formatting.php on line 4415
+[03-Aug-2023 13:24:38 UTC] PHP Stack trace:
+[03-Aug-2023 13:24:38 UTC] PHP   1. {main}() C:\xampp\htdocs\index.php:0
+[03-Aug-2023 13:24:38 UTC] PHP   2. require() C:\xampp\htdocs\index.php:17
+[03-Aug-2023 13:24:38 UTC] PHP   3. require_once() C:\xampp\htdocs\wp-blog-header.php:19
+[03-Aug-2023 13:24:38 UTC] PHP   4. include() C:\xampp\htdocs\wp-includes\template-loader.php:106
+[03-Aug-2023 13:24:38 UTC] PHP   5. cryptoland_post_format() C:\xampp\htdocs\wp-content\themes\cryptoland-child\index.php:114
+[03-Aug-2023 13:24:38 UTC] PHP   6. do_action($hook_name = 'cryptoland_formats_content_action') C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php:675
+[03-Aug-2023 13:24:38 UTC] PHP   7. WP_Hook->do_action($args = [0 => '']) C:\xampp\htdocs\wp-includes\plugin.php:517
+[03-Aug-2023 13:24:38 UTC] PHP   8. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\xampp\htdocs\wp-includes\class-wp-hook.php:332
+[03-Aug-2023 13:24:38 UTC] PHP   9. cryptoland_formats_content('') C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:38 UTC] PHP  10. esc_url($url = NULL, $protocols = *uninitialized*, $_context = *uninitialized*) C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php:717
+[03-Aug-2023 13:24:38 UTC] PHP  11. ltrim($string = NULL) C:\xampp\htdocs\wp-includes\formatting.php:4415
+[03-Aug-2023 13:24:38 UTC] PHP Deprecated:  preg_split(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\xampp\htdocs\wp-includes\formatting.php on line 3465
+[03-Aug-2023 13:24:38 UTC] PHP Stack trace:
+[03-Aug-2023 13:24:38 UTC] PHP   1. {main}() C:\xampp\htdocs\index.php:0
+[03-Aug-2023 13:24:38 UTC] PHP   2. require() C:\xampp\htdocs\index.php:17
+[03-Aug-2023 13:24:38 UTC] PHP   3. require_once() C:\xampp\htdocs\wp-blog-header.php:19
+[03-Aug-2023 13:24:38 UTC] PHP   4. include() C:\xampp\htdocs\wp-includes\template-loader.php:106
+[03-Aug-2023 13:24:38 UTC] PHP   5. cryptoland_post_format() C:\xampp\htdocs\wp-content\themes\cryptoland-child\index.php:114
+[03-Aug-2023 13:24:38 UTC] PHP   6. do_action($hook_name = 'cryptoland_formats_content_action') C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php:675
+[03-Aug-2023 13:24:38 UTC] PHP   7. WP_Hook->do_action($args = [0 => '']) C:\xampp\htdocs\wp-includes\plugin.php:517
+[03-Aug-2023 13:24:38 UTC] PHP   8. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\xampp\htdocs\wp-includes\class-wp-hook.php:332
+[03-Aug-2023 13:24:38 UTC] PHP   9. cryptoland_formats_content('') C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:38 UTC] PHP  10. the_excerpt() C:\xampp\htdocs\wp-content\themes\cryptoland\includes\template-parts.php:724
+[03-Aug-2023 13:24:38 UTC] PHP  11. get_the_excerpt($post = *uninitialized*) C:\xampp\htdocs\wp-includes\post-template.php:396
+[03-Aug-2023 13:24:38 UTC] PHP  12. apply_filters($hook_name = 'get_the_excerpt', $value = '', ...$args = variadic(class WP_Post { public $ID = 1237; public $post_author = '2'; public $post_date = '2023-07-29 15:08:01'; public $post_date_gmt = '2023-07-29 11:38:01'; public $post_content = ''; public $post_title = 'برای مثال'; public $post_excerpt = ''; public $post_status = 'publish'; public $comment_status = 'open'; public $ping_status = 'open'; public $post_password = ''; public $post_name = '%d8%a8%d8%b1%d8%a7%db%8c-%d9%85%d8%ab%d8%a7%d9%84'; public $to_ping = ''; public $pinged = ''; public $post_modified = '2023-07-29 15:08:01'; public $post_modified_gmt = '2023-07-29 11:38:01'; public $post_content_filtered = ''; public $post_parent = 0; public $guid = 'https://mobadelegar.com/?p=1237'; public $menu_order = 0; public $post_type = 'post'; public $post_mime_type = ''; public $comment_count = '0'; public $filter = 'raw' })) C:\xampp\htdocs\wp-includes\post-template.php:431
+[03-Aug-2023 13:24:38 UTC] PHP  13. WP_Hook->apply_filters($value = '', $args = [0 => '', 1 => class WP_Post { public $ID = 1237; public $post_author = '2'; public $post_date = '2023-07-29 15:08:01'; public $post_date_gmt = '2023-07-29 11:38:01'; public $post_content = ''; public $post_title = 'برای مثال'; public $post_excerpt = ''; public $post_status = 'publish'; public $comment_status = 'open'; public $ping_status = 'open'; public $post_password = ''; public $post_name = '%d8%a8%d8%b1%d8%a7%db%8c-%d9%85%d8%ab%d8%a7%d9%84'; public $to_ping = ''; public $pinged = ''; public $post_modified = '2023-07-29 15:08:01'; public $post_modified_gmt = '2023-07-29 11:38:01'; public $post_content_filtered = ''; public $post_parent = 0; public $guid = 'https://mobadelegar.com/?p=1237'; public $menu_order = 0; public $post_type = 'post'; public $post_mime_type = ''; public $comment_count = '0'; public $filter = 'raw' }]) C:\xampp\htdocs\wp-includes\plugin.php:205
+[03-Aug-2023 13:24:38 UTC] PHP  14. wp_trim_excerpt($text = '', $post = class WP_Post { public $ID = 1237; public $post_author = '2'; public $post_date = '2023-07-29 15:08:01'; public $post_date_gmt = '2023-07-29 11:38:01'; public $post_content = ''; public $post_title = 'برای مثال'; public $post_excerpt = ''; public $post_status = 'publish'; public $comment_status = 'open'; public $ping_status = 'open'; public $post_password = ''; public $post_name = '%d8%a8%d8%b1%d8%a7%db%8c-%d9%85%d8%ab%d8%a7%d9%84'; public $to_ping = ''; public $pinged = ''; public $post_modified = '2023-07-29 15:08:01'; public $post_modified_gmt = '2023-07-29 11:38:01'; public $post_content_filtered = ''; public $post_parent = 0; public $guid = 'https://mobadelegar.com/?p=1237'; public $menu_order = 0; public $post_type = 'post'; public $post_mime_type = ''; public $comment_count = '0'; public $filter = 'raw' }) C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:38 UTC] PHP  15. apply_filters($hook_name = 'the_content', $value = '') C:\xampp\htdocs\wp-includes\formatting.php:3928
+[03-Aug-2023 13:24:38 UTC] PHP  16. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\xampp\htdocs\wp-includes\plugin.php:205
+[03-Aug-2023 13:24:38 UTC] PHP  17. convert_smilies($text = NULL) C:\xampp\htdocs\wp-includes\class-wp-hook.php:308
+[03-Aug-2023 13:24:38 UTC] PHP  18. preg_split($pattern = '/(<.*>)/U', $subject = NULL, $limit = -1, $flags = 2) C:\xampp\htdocs\wp-includes\formatting.php:3465

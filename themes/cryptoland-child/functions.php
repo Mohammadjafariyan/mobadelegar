@@ -30,8 +30,9 @@ add_action(  'wp_enqueue_scripts', 'cryptoland_child_enqueue_styles' );
 
 function mj_kh_search_form( $form ) {
 
-    $form = '<form style="max-width:unset" role="search" method="get" id="custom-searchform" class="c-sidebar-1-search-form" action="' . home_url( '/' ) . '" >
-    <input class="c-sidebar-1-search-field" type="text" value="' . get_search_query() . '" name="s" id="s" />
+    $form = '<form dir="rtl" style="max-width:unset" role="search" method="get" id="custom-searchform" class="c-sidebar-1-search-form" action="' . home_url( '/' ) . '" >
+    <button class="c-sidebar-1-search-button" id="searchsubmit" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+    <input  placeholder=" جستجو ..."  class="c-sidebar-1-search-field" type="text" value="' . get_search_query() . '" name="s" id="s" />
     <button class="c-sidebar-1-search-button" id="searchsubmit" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
     </div>
     </form>';
@@ -52,7 +53,7 @@ add_filter( 'get_search_form', 'mj_kh_search_form', 100 );
 //=====================================================================================================================
 add_action( 'wp_enqueue_scripts', 'mj_kh_enqueue_frontend_assets', 10 );
 function mj_kh_enqueue_frontend_assets(){
-    wp_register_style( 'custom-style', get_stylesheet_directory_uri() . '/css/custom-style.css' );
+    wp_register_style( 'blg-custom-style', get_stylesheet_directory_uri() . '/css/custom-style.css' );
 
         wp_register_style( 'bootstrap', get_stylesheet_directory_uri() . '/bootstrap/css/bootstrap.min.css' );
         wp_register_style( 'bootstrap-rtl', get_stylesheet_directory_uri() . '/bootstrap/css/bootstrap.rtl.min.css' );

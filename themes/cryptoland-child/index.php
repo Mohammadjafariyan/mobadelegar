@@ -113,8 +113,31 @@ wp_enqueue_script( 'bootstrap-js');
                             if (have_posts()) :
 
                                 while (have_posts()) : the_post();
+
+
+                            ?>
+                                    <article id="post-<?php /*the_ID(); */?>" <?php /*post_class(); */?>>
+                                        <?php
+                                                                    if ( has_post_thumbnail() ) :
+                                                                        the_post_thumbnail();
+                                                                    endif;
+                                                                    ?>
+                                        <header class="entry-header">
+                                            <h1 class="entry-title"><?php  the_title(); ?></h1>
+                                        </header>
+                                        <div class="entry-content">
+                                            <?php the_content(); ?>
+                                            <a href="<?php /*the_permalink(); */?>">Read More</a>
+                                        </div>
+                                    </article>
+
+                            <?php
                                     cryptoland_post_format();
+
+
+
                                 endwhile;
+
 
                                 echo '<div class="u-space"></div>';
 

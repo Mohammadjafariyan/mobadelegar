@@ -8225,7 +8225,7 @@ button:focus, button:hover, input:focus, input:hover {
 .btn {
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  height: 50px;
+  
   line-height: 52px;
   background-color: #8761a8;
   color: #fff;

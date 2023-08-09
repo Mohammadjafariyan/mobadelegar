@@ -97,59 +97,36 @@ wp_enqueue_script( 'bootstrap-js');
 
 
                 <!-- Right sidebar -->
-                <?php if (($cryptoland_blog_layout) == 'right-sidebar' || ($cryptoland_blog_layout) == ''){ ?>
-                <div class="col col-lg-8  col-md-8 col-sm-12 posts">
+                
+                <div class="row">
+                            <?php 
+                            
+                          
+						$index         = 0;
+						$no_of_columns = 3;
 
-                    <!-- Left sidebar -->
-                    <?php } elseif (($cryptoland_blog_layout) == 'left-sidebar') {
-                    cryptoland_inner_page_sidebars(); ?>
-                    <div class="col col-lg-8  col-md-8 col-sm-12 posts">
+						while ( have_posts() ) : the_post();
 
-                        <!-- Sidebar none -->
-                        <?php } elseif (($cryptoland_blog_layout) == 'full-width') { ?>
-                        <div class="full-width-index col col-md-10 col-lg-8">
-                            <?php }
+							if ( 0 === $index % $no_of_columns ) {
+								?>
+								<div class="col-lg-4 col-md-6 col-sm-12">
+								<?php
+							}
 
-                            if (have_posts()) :
+							get_template_part( 'template-parts/content' );
 
-                                while (have_posts()) : the_post();
+							$index ++;
 
+							if ( 0 !== $index && 0 === $index % $no_of_columns ) {
+								?>
+								</div>
+								<?php
+							}
 
-                            ?>
-                                    <article id="post-<?php /*the_ID(); */?>" <?php /*post_class(); */?>>
-                                        <?php
-                                                                    if ( has_post_thumbnail() ) :
-                                                                        the_post_thumbnail();
-                                                                    endif;
-                                                                    ?>
-                                        <header class="entry-header">
-                                            <h1 class="entry-title"><?php  the_title(); ?></h1>
-                                        </header>
-                                        <div class="entry-content">
-                                            <?php the_content(); ?>
-                                            <a href="<?php /*the_permalink(); */?>">Read More</a>
-                                        </div>
-                                    </article>
+						endwhile;
+						?>
 
-                            <?php
-                                    cryptoland_post_format();
-
-
-
-                                endwhile;
-
-
-                                echo '<div class="u-space"></div>';
-
-                                cryptoland_post_pagination();
-
-                            else :
-
-                                get_template_part('content', 'none');
-
-                            endif;
-                            ?>
-
+                            
                         </div>
 
                         <?php

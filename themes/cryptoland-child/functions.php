@@ -16,13 +16,22 @@
  *
  * @link https://codex.wordpress.org/Child_Themes
  */
+
+ 
+require_once dirname( __FILE__ ) . '/inc/helpers/template-tags.php';
+
 function cryptoland_child_enqueue_styles() {
-    wp_enqueue_style( 'cryptoland-style' , get_template_directory_uri() . '/style.css' );
-    wp_enqueue_style( 'cryptoland-child-style',
-        get_stylesheet_directory_uri() . '/style.css',
-        array( 'cryptoland-style' ),
-        wp_get_theme()->get('Version')
-    );
+
+    if( !is_home()) {
+
+        wp_enqueue_style( 'cryptoland-style' , get_template_directory_uri() . '/style.css' );
+        wp_enqueue_style( 'cryptoland-child-style',
+            get_stylesheet_directory_uri() . '/style.css',
+            array( 'cryptoland-style' ),
+            wp_get_theme()->get('Version')
+        );
+    }
+   
 }
 
 add_action(  'wp_enqueue_scripts', 'cryptoland_child_enqueue_styles' );

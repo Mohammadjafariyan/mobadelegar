@@ -51,16 +51,16 @@ endif;
 function cryptoland_scripts() {
 
 	// flexslider css file for blog post
+	wp_enqueue_style( 'font-awesome',get_template_directory_uri() . '/framework/dist/font-awesome/fontawesome.min.css',false, '1.2');
+
 
 	wp_enqueue_style( 'ion-icon',get_template_directory_uri() . '/framework/dist/ion-icons/ionicon-stylesheet.css',false, '1.2');
 	wp_enqueue_style( 'themify',get_template_directory_uri() . '/framework/dist/themify/themify-stylesheet.css',false, '1.2');
-	wp_enqueue_style( 'font-awesome',get_template_directory_uri() . '/framework/dist/font-awesome/fontawesome.min.css',false, '1.2');
 	wp_enqueue_style( 'cryptoland-custom-flexslider',get_template_directory_uri() . '/framework/js/flexslider/flexslider.css',false, '1.2');
 
 	$cryptoland_page_style =  esc_attr( get_post_meta(get_the_ID(), 'cryptoland_page_style', true ) );
 	$cryptoland_page_style =  $cryptoland_page_style != '' ? $cryptoland_page_style : 1;
 	wp_enqueue_style( 'cryptoland-main', get_template_directory_uri() . '/css/main'.$cryptoland_page_style.'.css',false, '1.2');
-	wp_enqueue_style( 'cryptoland-extra', get_template_directory_uri() . '/framework/css/cryptoland-extra.css',false, '1.2');
 
 
 	// theme default css file for blog posts

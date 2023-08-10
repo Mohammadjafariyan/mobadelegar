@@ -9,13 +9,7 @@ $cryptoland_blog_layout = ot_get_option('cryptoland_blog_layout');
 // blog index page layout before action area, you can use this function for your custom codes
 do_action("cryptoland_before_index");
 
-wp_enqueue_style( 'blg-custom-style' );
-wp_enqueue_style( 'bootstrap' );
-wp_enqueue_style( 'bootstrap-rtl' );
 
-/* Register & Enqueue scripts. */
-
-wp_enqueue_script( 'bootstrap-js');
 
 ?> <!-- Index before code -->
 

@@ -16,12 +16,12 @@ if ( empty( $article_terms ) || ! is_array( $article_terms ) ) {
 
 ?>
 
-<div class="entry-footer mt-4">
+<div class="entry-footer  align-self-end  ">
 	<?php
 	foreach ( $article_terms as $key => $article_term ) {
 		?>
-		<a class="entry-footer-link text-black-50 btn border border-secondary mb-2 mr-2" href="<?php echo esc_url( get_term_link( $article_term ) ); ?>">
-				<?php echo esc_html( $article_term->name ); ?>
+		<a class="p-w-card-title badge bg-warning  ms-1 me-1" href="<?php echo esc_url( get_term_link( $article_term ) ); ?>">
+			<small>	<?php echo esc_html( $article_term->name ); ?> </small>
 		</a>
 		<?php
 	}

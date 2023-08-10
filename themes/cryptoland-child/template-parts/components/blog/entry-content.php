@@ -10,7 +10,7 @@
 ?>
 
 
-<div class="card-body">
+<div class="card-body p-1">
 	<?php
 	if ( is_single() ) {
 		the_content(

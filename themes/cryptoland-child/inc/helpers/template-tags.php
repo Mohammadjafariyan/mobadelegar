@@ -58,7 +58,7 @@ function the_post_custom_thumbnail( $post_id, $size = 'featured-thumbnail', $add
  */
 function aquila_posted_on() {
 
-	$year                        = get_the_date( 'Y' );
+	/*$year                        = get_the_date( 'Y' );
 	$month                       = get_the_date( 'n' );
 	$day                         = get_the_date( 'j' );
 	$post_date_archive_permalink = get_day_link( $year, $month, $day );
@@ -82,7 +82,7 @@ function aquila_posted_on() {
 		'<a href="' . esc_url( $post_date_archive_permalink ) . '" rel="bookmark">' . $time_string . '</a>'
 	);
 
-	echo '<span class="posted-on text-secondary">' . $posted_on . '</span>';
+	echo '<span class="posted-on text-secondary">' . $posted_on . '</span>';*/
 }
 
 /**
@@ -126,7 +126,7 @@ function aquila_the_excerpt( $trim_character_count = 0 ) {
 		return;
 	}
 
-	$excerpt = wp_html_excerpt( get_the_excerpt( $post_ID ), $trim_character_count, '[...]' );
+	$excerpt = wp_html_excerpt( get_the_excerpt( $post_ID ), $trim_character_count, '...' );
 
 
 	echo $excerpt;
@@ -142,9 +142,9 @@ function aquila_the_excerpt( $trim_character_count = 0 ) {
 function aquila_excerpt_more( $more = '' ) {
 
 	if ( ! is_single() ) {
-		$more = sprintf( '<a class="aquila-read-more text-white mt-3 btn btn-info" href="%1$s">%2$s</a>',
+		$more = sprintf( '<a class="btn btn-primary" href="%1$s">%2$s</a>',
 			get_permalink( get_the_ID() ),
-			__( 'Read more', 'aquila' )
+            __( 'Read more', 'cryptoland' )
 		);
 	}
 

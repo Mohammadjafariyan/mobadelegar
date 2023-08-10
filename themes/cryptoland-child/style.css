@@ -5,3 +5,30 @@
 * Template: cryptoland
 * Version: 2.1.3
 */
+
+.blg-men-cat{
+
+}
+
+.p-w-card  {
+    max-height:650px;
+    height:650px;
+    overflow:hidden;
+}
+.p-w-card .card-title {
+    max-width: 98%;
+    /*white-space: nowrap;*/
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.p-w-card-title:hover {
+    color:purple;
+    background-color:white;
+}
+.p-w-card-title {
+    background-color:purple;
+    color:white;
+border-radius: 2px;
+    padding:1px;
+}

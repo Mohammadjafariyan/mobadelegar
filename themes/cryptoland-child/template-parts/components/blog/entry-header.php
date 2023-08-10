@@ -16,7 +16,6 @@ $has_post_thumbnail = get_the_post_thumbnail( $the_post_id );
 
 
 
-
 <header class="entry-header ">
 	<?php
 	// Featured image
@@ -62,13 +61,13 @@ $has_post_thumbnail = get_the_post_thumbnail( $the_post_id );
 	// Title
 	if ( is_single() || is_page() ) {
 		printf(
-			'<h1 class="page-title text-dark %1$s">%2$s</h1>',
+			'<h1 class="page-title  ps-1 pe-1  card-title text-dark %1$s">%2$s</h1>',
 			esc_attr( $heading_class ),
 			wp_kses_post( get_the_title() )
 		);
 	} else {
 		printf(
-			'<h2 class="entry-title post-card-title mb-3"><a class="text-dark" href="%1$s">%2$s</a></h2>',
+			'<h2 class="entry-title card-title ps-1 pe-1 post-card-title mb-3"><a class="text-dark" href="%1$s">%2$s</a></h2>',
 			esc_url( get_the_permalink() ),
 			wp_kses_post( get_the_title() )
 		);

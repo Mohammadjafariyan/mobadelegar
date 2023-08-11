@@ -27,8 +27,17 @@ $has_post_thumbnail = get_the_post_thumbnail( $the_post_id );
 
 				<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
 
-				<img class="card-img-top" src="<?php echo  $image[0]  ?>" />
+				<img class="card-img-top" src="<?php echo  $image[0]  ?>" >
+                    <div class="p-w-circle   rounded-pill " style="background-color: #17b9cc;opacity: 0.5">
+                        <span class="badge ">
+                            <?php  	aquila_posted_on();
+                           ?>
+                        </span>
 
+
+                    </div>
+
+                    </img>
 					<?php
 
 					
@@ -51,8 +60,19 @@ $has_post_thumbnail = get_the_post_thumbnail( $the_post_id );
 				<a class="d-block" href="<?php echo esc_url( get_permalink() ); ?>">
 					<figure class="img-container">
 						
-						<img class="card-img-top" src="<?php echo  get_stylesheet_directory_uri(). '/img/empty.jpg'  ?>" />
-					</figure>
+						<img class="card-img-top" src="<?php echo  get_stylesheet_directory_uri(). '/img/empty.jpg'  ?>" >
+                        <div class="p-w-circle   rounded-pill " style="background-color: #17b9cc;opacity: 0.5">
+                        <span class="badge ">
+                            <?php  	aquila_posted_on();
+                            ?>
+                        </span>
+
+
+                        </div>
+                        </img>
+
+
+                    </figure>
 				</a>
 			</div>
 			<?php
@@ -74,4 +94,5 @@ $has_post_thumbnail = get_the_post_thumbnail( $the_post_id );
 	}
 
 	?>
+
 </header>

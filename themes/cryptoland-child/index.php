@@ -16,10 +16,20 @@ do_action("cryptoland_before_index");
 <div id="cryptoland-index" class="cryptoland-index"> <!-- Index general div -->
 
     <!-- theme hero section -->
-    <?php cryptoland_hero_section(); ?>
+    <?php
+    //cryptoland_hero_section();
+
+    $p_bg = ot_get_option( 'cryptoland_blog_hero_bg', array() );
+    $p_img_src = isset($p_bg['background-image']) ? $p_bg['background-image'] : '';
+    ?>
+
+    <div class="container-fluid" style="height:30vw; background-image:url(<?php echo $p_img_src  ?>);">
+       <?php  get_template_part( 'template-parts/blog-intro-section' ); ?>
+
+    </div>
 
     <div id="blog-page-container" class="blog-classic c-section -space-large">
-        <div class="grid container">
+        <div class="grid container-fluid" style="width:80%">
             <div class="row row-xs-middle">
 
 
@@ -92,7 +102,9 @@ do_action("cryptoland_before_index");
 
                 <!-- Right sidebar -->
                 
-                <div class="row">
+                <div class="row justify-content-center">
+
+
                             <?php 
                             
                           
@@ -129,7 +141,20 @@ do_action("cryptoland_before_index");
                         }
                         ?>
 
-                    </div><!--End row -->
+
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <?php
+                        get_template_part('inc/helpers/template-tags.php');
+
+                        aquila_pagination();
+                        ?>
+                    </div>
+                </div>
+
+
+
+            </div><!--End row -->
                 </div><!--End container -->
             </div><!--End #blog -->
 

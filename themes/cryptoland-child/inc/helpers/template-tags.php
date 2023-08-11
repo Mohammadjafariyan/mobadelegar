@@ -58,7 +58,7 @@ function the_post_custom_thumbnail( $post_id, $size = 'featured-thumbnail', $add
  */
 function aquila_posted_on() {
 
-	/*$year                        = get_the_date( 'Y' );
+	$year                        = get_the_date( 'Y' );
 	$month                       = get_the_date( 'n' );
 	$day                         = get_the_date( 'j' );
 	$post_date_archive_permalink = get_day_link( $year, $month, $day );
@@ -72,17 +72,18 @@ function aquila_posted_on() {
 
 	$time_string = sprintf( $time_string,
 		esc_attr( get_the_date( DATE_W3C ) ),
-		esc_attr( get_the_date() ),
+		esc_attr( get_the_date("j F") ),
 		esc_attr( get_the_modified_date( DATE_W3C ) ),
-		esc_attr( get_the_modified_date() )
+		esc_attr( get_the_modified_date("j F") )
 	);
 
-	$posted_on = sprintf(
-		esc_html_x( 'Posted on %s', 'post date', 'aquila' ),
+	/*$posted_on = sprintf(
+		esc_html_x( '%s', 'post date', 'aquila' ),
 		'<a href="' . esc_url( $post_date_archive_permalink ) . '" rel="bookmark">' . $time_string . '</a>'
-	);
+	);*/
 
-	echo '<span class="posted-on text-secondary">' . $posted_on . '</span>';*/
+//echo '<span class="posted-on text-secondary">' .  $time_string . '</span>';
+	echo   $time_string;
 }
 
 /**

@@ -1604,6 +1604,21 @@
 			'condition'   => 'cryptoland_blog_hero_display:is(on)',
 			'section'     => 'blog_page',
 		),
+    array(
+        'id'          => 'cryptoland_blog_good_tab',
+        'label'       =>  'Blog Heading',
+        'type'        => 'tab',
+        'section'     => 'blog_page',
+    ),
+    array(
+        'id'          => 'cryptoland_blog_good_display',
+        'label'       => 'Blog/Post page heading display',
+        'desc'        => sprintf( esc_html__( 'Please select blog post page heading display %s or %s.', 'cryptoland' ), '<code>on</code>', '<code>off</code>' ),
+        'type'        => 'upload',
+        'condition'   => 'cryptoland_blog_hero_display:is(on)',
+        'section'     => 'blog_page',
+        'operator'    => 'and'
+    ),
 		//Blog heading
 		array(
 			'id'          => 'cryptoland_blog_heading_tab',

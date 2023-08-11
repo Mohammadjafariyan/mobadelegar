@@ -6,13 +6,47 @@
 * Version: 2.1.3
 */
 
+.p-w-circle{
+
+    height: 50px;
+    width: 50px;
+    right: 40%;
+    position: absolute;
+    transform: translate(-50%, -78%);
+}
+
+.p-w-circle span{
+
+    transform: translate(10%, 40%);
+}
+.card-img-top{
+    max-height:277px;
+}
 .blg-men-cat{
 
 }
+.aquila-pagination .btn{
+    background-color: rgb(23 185 204);
+    border:1px solid white !important ;;
+
+}
+
+.aquila-pagination .btn:hover{
+    background-color: rgb(23 185 204);
+    border:1px solid purple  !important;;
+
+}
+
+.current .btn{
+    color: rgb(23 185 204) !important;
+    background-color: white !important;
+
+}
+
 
 .p-w-card  {
-    max-height:650px;
-    height:650px;
+    max-height:550px;
+    height:550px;
     overflow:hidden;
 }
 .p-w-card .card-title {
@@ -22,13 +56,41 @@
     text-overflow: ellipsis;
 }
 
+.p-w-wrap {
+    max-width: 98%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
 .p-w-card-title:hover {
-    color:purple;
+    color:purple !important;
     background-color:white;
 }
 .p-w-card-title {
-    background-color:purple;
-    color:white;
+
 border-radius: 2px;
     padding:1px;
+}
+
+
+
+a.blg-men-cat {
+    text-decoration: none !important ;
+}
+
+
+.blg-men-cat:hover{
+    color: #f4929b;
+    background-color:black;
+}
+
+
+.blg-men-cat{
+    color: black ;
+    border-radius:4px;
+    padding:2px;
+    margin-right: 25px;
+    margin-left: 10px;
+    font-weight: 800;
 }

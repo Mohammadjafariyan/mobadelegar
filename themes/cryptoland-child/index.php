@@ -104,11 +104,13 @@ do_action("cryptoland_before_index");
                 
                 <div class="row justify-content-center">
 
+                <?php $categories_list= get_the_category_list(','); ?>
+                <?php echo do_shortcode('[ajax_load_more category="'. $categories_list .'" no_results_text="با متن جستجو ، عنوان یا موضوع انتخاب شده مقاله ای یافت نشد" transition_container_classes="row" scroll="false" post_type="post, portfolio" posts_per_page="6" button_label="مشاهده بیشتر"]') ?>
 
                             <?php 
                             
                           
-						$index         = 0;
+					/*	$index         = 0;
 						$no_of_columns = 3;
 
 						while ( have_posts() ) : the_post();
@@ -149,7 +151,15 @@ do_action("cryptoland_before_index");
 
                         aquila_pagination();
                         ?>
+
+
+
                     </div>
+                    */?>
+
+
+<h3 class="hrr"> آخرین اخبار
+</h3>
                 </div>
 
 

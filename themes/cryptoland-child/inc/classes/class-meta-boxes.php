@@ -28,7 +28,7 @@ class Meta_Boxes {
 		 * Actions.
 		 */
 		add_action( 'add_meta_boxes', [ $this, 'add_custom_meta_box' ] );
-		add_action( 'save_post', [ $this, 'save_post_meta_data' ] );
+		add_action( 'save_post', [ $this, 'save_post_meta_data' ] , 10 );
 
 	}
 

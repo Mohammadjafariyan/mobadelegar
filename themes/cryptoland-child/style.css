@@ -10,6 +10,13 @@
     border-bottom: 5px solid  #fec511;
     text-align: center;
     padding-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.link{
+    color: #fec311 !important;
+
 }
 
 .p-w-circle{
@@ -83,6 +90,10 @@
 
 border-radius: 2px;
     padding:1px;
+}
+
+.c-sidebar-1-search-form{
+    border: 1px solid #fec311;
 }
 
 

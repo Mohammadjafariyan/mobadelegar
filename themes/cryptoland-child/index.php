@@ -12,7 +12,12 @@ do_action("cryptoland_before_index");
 
 
 ?> <!-- Index before code -->
-
+<style>
+.header{
+    background-color: #1f2641;
+    height: 62px !important;
+}
+    </style>
 <div id="cryptoland-index" class="cryptoland-index"> <!-- Index general div -->
 
     <!-- theme hero section -->
@@ -23,12 +28,13 @@ do_action("cryptoland_before_index");
     $p_img_src = isset($p_bg['background-image']) ? $p_bg['background-image'] : '';
     ?>
 
-    <div class="container-fluid" style="height:30vw; background-image:url(<?php echo $p_img_src  ?>);">
+    <div class="container-fluid" >
        <?php  get_template_part( 'template-parts/blog-intro-section' ); ?>
 
     </div>
 
-    <div id="blog-page-container" class="blog-classic c-section -space-large">
+    <br/>
+    <div id="blog-page-container" class="mt-4">
         <div class="grid container-fluid" style="width:80%">
             <div class="row row-xs-middle">
 
@@ -58,45 +64,6 @@ do_action("cryptoland_before_index");
 
 
                 </div>
-                <br/>
-
-
-                <?php
-/*
-                $args = array(
-                    'post_type' => 'post',
-                    'post_status' => 'publish',
-                    'posts_per_page' => 5,
-                );
-
-                $category = get_the_category();
-
-                $arr_posts = new WP_Query( $args );
-
-                if ( $arr_posts->have_posts() ) :
-
-                    while ( $arr_posts->have_posts() ) :
-                        $arr_posts->the_post();
-                        */?><!--
-                        <article id="post-<?php /*the_ID(); */?>" <?php /*post_class(); */?>>
-                            <?php
-/*                            if ( has_post_thumbnail() ) :
-                                the_post_thumbnail();
-                            endif;
-                            */?>
-                            <header class="entry-header">
-                                <h1 class="entry-title"><?php /*the_title(); */?></h1>
-                            </header>
-                            <div class="entry-content">
-                                <?php /*the_excerpt(); */?>
-                                <a href="<?php /*the_permalink(); */?>">Read More</a>
-                            </div>
-                        </article>
-                    --><?php
-/*                    endwhile;
-                    wp_reset_postdata();
-                endif;
-                */?>
 
 
 
@@ -157,9 +124,36 @@ do_action("cryptoland_before_index");
                     </div>
                     */?>
 
+<br/>
 
 <h3 class="hrr"> آخرین اخبار
 </h3>
+<?php 	get_template_part( 'template-parts/components/blog/news-category-posts' );
+ ?>
+
+<br/>
+<br/>
+<h3 class="hrr"> مقالات توکن های بهادار
+
+</h3>
+<?php 	get_template_part( 'template-parts/components/blog/news-category-special-posts' );
+ ?>
+
+
+
+<h3 class="hrr"> آخرین وبینار های آکادمی مزدکس
+
+
+</h3>
+<?php 	get_template_part( 'template-parts/components/blog/news-category-special-2-posts' );
+ ?>
+
+
+<h3 class="hrr"> لغت نامه کریپتو
+</h3>
+<?php 	get_template_part( 'template-parts/components/blog/news-category-posts' );
+ ?>
+
                 </div>
 
 

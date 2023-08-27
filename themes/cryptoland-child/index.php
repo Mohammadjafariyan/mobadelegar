@@ -69,7 +69,7 @@ do_action("cryptoland_before_index");
 
                 <!-- Right sidebar -->
                 
-                <div class="row justify-content-center">
+                <div class="row justify-content-center ">
 
                 <?php $categories_list= get_the_category_list(','); ?>
                 <?php echo do_shortcode('[ajax_load_more category="'. $categories_list .'" no_results_text="با متن جستجو ، عنوان یا موضوع انتخاب شده مقاله ای یافت نشد" transition_container_classes="row" scroll="false" post_type="post, portfolio" posts_per_page="6" button_label="مشاهده بیشتر"]') ?>
@@ -163,6 +163,37 @@ do_action("cryptoland_before_index");
             </div><!--End #blog -->
 
         </div> <!--End index general div -->
+
+
+        <br/>
+        <br/>
+        <br/>
+
+        <style>
+
+.subscribeform{
+    
+}
+            </style>
+<div class="container-fluid p-4 subscribeEmailPanel text-center" >
+    <h3 class="mb-4 ">دریافت رایگان ماهنامه مزدکس
+</h3>
+
+<h4 class="m-4 "> <b>هرماه، جمع بندی و تحلیل اخبار و روندهای جدید بازار را دریافت کنید.
+</b></h4>
+<?php 
+if (substr($_SERVER['REMOTE_ADDR'], 0, 4) == '127.'
+|| $_SERVER['REMOTE_ADDR'] == '::1') {
+    echo do_shortcode('[contact-form-7 id="2011" title="ثبت نام در ایمیل"]') ;
+
+}else{
+    echo do_shortcode('[contact-form-7 id="1a2cdbc" title="ثبت نام در ایمیل"]') ;
+
+}?>
+
+                    </div>
+
+
 
 
         <?php

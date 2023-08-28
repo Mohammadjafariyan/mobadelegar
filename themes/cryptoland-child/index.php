@@ -43,7 +43,7 @@ do_action("cryptoland_before_index");
 
 
                 <br/>
-                <div class="c-blog-3-item-inner">
+                <div class="c-blog-3-item-inner mb-4">
 
                     <div class="c-blog-3-info ">
                         <h5 class="">
@@ -171,8 +171,8 @@ do_action("cryptoland_before_index");
 
         <style>
 
-.subscribeform{
-    
+.subscribeform p{
+
 }
             </style>
 <div class="container-fluid p-4 subscribeEmailPanel text-center" >

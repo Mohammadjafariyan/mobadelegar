@@ -10,7 +10,7 @@ $args = array(
       array(
         'taxonomy' => 'category',
         'field'    => 'slug',
-        'terms'    => array('news') // These are the slugs of the categories you're interested in
+        'terms'    => array('specialposts') // These are the slugs of the categories you're interested in
       )
     )
   );

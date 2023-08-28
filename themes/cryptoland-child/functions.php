@@ -16,8 +16,28 @@
  *
  * @link https://codex.wordpress.org/Child_Themes
  */
+require dirname( __FILE__ )  . '/inc/template-tags.php';
+require  dirname( __FILE__ ) . '/inc/template-functions.php';
 
- 
+// Menu functions and filters.
+require dirname( __FILE__ ) . '/inc/menu-functions.php';
+
+
+// SVG Icons class.
+require dirname( __FILE__ ) . '/classes/class-twenty-twenty-one-svg-icons.php';
+
+// Custom color classes.
+require dirname( __FILE__ ) . '/classes/class-twenty-twenty-one-custom-colors.php';
+new Twenty_Twenty_One_Custom_Colors();
+require dirname( __FILE__ ) . '/classes/class-twenty-twenty-one-customize.php';
+new Twenty_Twenty_One_Customize();
+
+// Dark Mode.
+require_once dirname( __FILE__ ) . '/classes/class-twenty-twenty-one-dark-mode.php';
+new Twenty_Twenty_One_Dark_Mode();
+
+
+
 require_once dirname( __FILE__ ) . '/inc/helpers/template-tags.php';
 
 function cryptoland_child_enqueue_styles() {
@@ -31,13 +51,13 @@ function cryptoland_child_enqueue_styles() {
             wp_get_theme()->get('Version')
         );
     }
-   
+
 }
 
 add_action(  'wp_enqueue_scripts', 'cryptoland_child_enqueue_styles' );
 
 
-function mj_kh_search_form( $form ) {
+/*function mj_kh_search_form( $form ) {
 
     $form = '<form dir="rtl" style="max-width:unset" role="search" method="get" id="custom-searchform" class="c-sidebar-1-search-form" action="' . home_url( '/' ) . '" >
     <button class="c-sidebar-1-search-button" id="searchsubmit" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
@@ -47,24 +67,17 @@ function mj_kh_search_form( $form ) {
     </form>';
 
 
-    /*
-     *
-     * <form class="c-sidebar-1-search-form" role="search" method="get" id="custom-searchform" action="https://mobadelegar.com/">
-			<input class="c-sidebar-1-search-field" type="text" value="" placeholder="جستجو برای ..." name="s" id="s">
-			<button class="c-sidebar-1-search-button" id="searchsubmit" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-		</form>
-     * */
     return $form;
 }
 
-add_filter( 'get_search_form', 'mj_kh_search_form', 100 );
+add_filter( 'get_search_form', 'mj_kh_search_form', 100 );*/
 
 //=====================================================================================================================
 add_action( 'wp_enqueue_scripts', 'mj_kh_enqueue_frontend_assets', 10 );
 function mj_kh_enqueue_frontend_assets(){
 
 
-    if( is_home()) {
+  //  if( is_home()) {
         wp_register_style('blg-custom-style', get_stylesheet_directory_uri() . '/css/custom-style.css');
 
        //wp_enqueue_style('semantic_css', get_stylesheet_directory_uri() . '/semantic/semantic.min.css');
@@ -74,7 +87,7 @@ function mj_kh_enqueue_frontend_assets(){
         wp_enqueue_style('bootstrap-rtl', get_stylesheet_directory_uri() . '/bootstrap/css/bootstrap.rtl.min.css');
         wp_enqueue_script('bootstrap-js', get_stylesheet_directory_uri() . '/bootstrap/js/bootstrap.min.js', array('jquery'));
 
-    }
+   // }
 }
 
 //=====================================================================================================================

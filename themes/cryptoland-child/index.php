@@ -18,6 +18,13 @@ do_action("cryptoland_before_index");
     height: 62px !important;
 }
     </style>
+
+<style>
+
+    .c-sidebar-1-search-form{
+        max-width: 100% !important;
+    }
+</style>
 <div id="cryptoland-index" class="cryptoland-index"> <!-- Index general div -->
 
     <!-- theme hero section -->
@@ -43,7 +50,7 @@ do_action("cryptoland_before_index");
 
 
                 <br/>
-                <div class="c-blog-3-item-inner mb-4">
+                <div class="c-blog-3-item-inner mb-4  mt-4">
 
                     <div class="c-blog-3-info ">
                         <h5 class="">

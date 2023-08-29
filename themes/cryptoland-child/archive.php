@@ -11,6 +11,12 @@ get_header();
         height: 62px !important;
     }
 </style>
+<style>
+
+    .c-sidebar-1-search-form{
+        max-width: 100% !important;
+    }
+</style>
 <div id="cryptoland-index" class="cryptoland-index" style="position: relative;top: 50px"> <!-- Index general div -->
 
     <!-- theme hero section -->
@@ -116,16 +122,11 @@ get_header();
                     <div class="grid container-fluid" style="width:80%">
                         <div class="row row-xs-middle">
 
-                            <style>
 
-                                .c-sidebar-1-search-form{
-                                 max-width: 100% !important;
-                                }
-                            </style>
                     <div class="row justify-content-center">
                         <?php get_search_form(); ?>
 
-                        <div class="c-blog-3-info ">
+                        <div class="c-blog-3-info   mt-4">
                             <h5 class="">
                                 <?php $categories = get_categories();
 

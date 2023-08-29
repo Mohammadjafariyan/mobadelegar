@@ -257,6 +257,7 @@ function cryptoland_theme_setup() {
     register_nav_menus( array(
         'header_menu_1' => esc_html__( 'Header Menu 1', 'cryptoland' ),
         'header_menu_2' => esc_html__( 'Header Menu 2', 'cryptoland' ),
+        'header_menu_posts' => esc_html__( 'منوی اکادمی', 'cryptoland' ),
     ) );
 
 }

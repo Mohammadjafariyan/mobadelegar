@@ -310,7 +310,8 @@ if ( ! function_exists( 'cryptoland_header' ) ) {
 					'walker'          => new Cryptoland_Wp_Bootstrap_Navwalker()
 				));
 			}*/
-            wp_nav_menu( array(
+			if(is_front_page()){
+				wp_nav_menu( array(
 					'menu'            => 'header_menu_1',
 					'theme_location'  => 'header_menu_1',
 					'depth'           => 2,
@@ -320,6 +321,19 @@ if ( ! function_exists( 'cryptoland_header' ) ) {
 					'fallback_cb'     => 'Cryptoland_Wp_Bootstrap_Navwalker::fallback',
 					'walker'          => new Cryptoland_Wp_Bootstrap_Navwalker()
 				));
+			}else{
+				wp_nav_menu( array(
+					'menu'            => 'header_menu_posts',
+					'theme_location'  => 'header_menu_posts',
+					'depth'           => 2,
+					'menu_class'      => 'menu',
+					'menu_id'		  => '',
+					'echo' => true,
+					'fallback_cb'     => 'Cryptoland_Wp_Bootstrap_Navwalker::fallback',
+					'walker'          => new Cryptoland_Wp_Bootstrap_Navwalker()
+				));
+			}
+           
 		?>
 
 		<?php if( $hld != 'off' OR $s_in != 'off' OR $s_up != 'off' OR $btn_tel_d != 'off' ) : ?>

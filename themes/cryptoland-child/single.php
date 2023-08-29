@@ -20,7 +20,7 @@ get_header();
 
         <br/>
         <div id="blog-page-container" class="mt-4">
-            <div class="grid container-fluid" style="width:80%">
+            <div class="grid container-fluid" style="width:90%">
                 <div class="row row-xs-middle">
 
                     <div class="col-3  ">
